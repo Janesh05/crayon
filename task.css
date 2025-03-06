@@ -81,6 +81,9 @@ button {
     background-color: white;
 }
 .content {
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
     margin-top: 120px;
     display: flex;
     font-family: 'Gilroy-Bold', sans-serif;
@@ -372,4 +375,18 @@ p {
 }
 .credit3 {
     margin-bottom: 10px;
+}
+.page_end {
+    display: flex;
+}
+.page_end h3 {
+    font-size: 16px;
+    font-family: 'Gilroy-SemiBold',sans-serif;
+    color: #5978FF;
+}
+.page_end img {
+    margin-bottom: -20px;
+    width: 22px;
+    height: 22px;
+    padding-left: 200;
 }
