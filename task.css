@@ -199,7 +199,8 @@ p {
 }
 .page4_bg {
     padding-top: 75px;
-    background-image: url(page3_grid_bg.png);
+    background-image: url('page4_grid_bg.png'),url('page4_bg.png');
+    position: center;
 }
 .advisorx1 {
     display: flex;
@@ -376,17 +377,29 @@ p {
 .credit3 {
     margin-bottom: 10px;
 }
-.page_end {
+.page4_end {
     display: flex;
+    padding-left: 650px;
+    padding-top: 20px;
+    padding-bottom: 70px;
 }
-.page_end h3 {
+.page4_end h4 {
     font-size: 16px;
     font-family: 'Gilroy-SemiBold',sans-serif;
     color: #5978FF;
 }
-.page_end img {
-    margin-bottom: -20px;
+.page4_end img {
     width: 22px;
     height: 22px;
-    padding-left: 200;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.page5_img {
+    float: left;
+}
+.page5_heading {
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Gilroy-Bold', sans-serif;
 }
