@@ -58,59 +58,52 @@ a {
     gap: 5px;
 }
 button {
-    padding: 8px 16px;
     font-size: 16px;
-    border-radius: 5px;
     cursor: pointer;
-    border: 1px solid black;
+}
+.login_button {
+    margin-right: 8px;
+    width: 78px;
+    height: 40px;
+    border-radius: 10px;
+    color: #5978FF;
+    border: 1px solid #5978FF;
+    background-color: #FFFFFF;
 }
 .get-started {
     width: 121px;
     height: 40px;
     border-radius: 10px;
-    color: white;
-    background-color: #007bff;
+    color: #FFFFFF;
+    background-color: #5978FF;
     border: none;
 }
-.login_button {
-    width: 78px;
-    height: 40px;
-    border-radius: 10px;
-    color: #007bff;
-    border-color: #007bff;
-    background-color: white;
-}
 .content {
-    max-width: 100%;
-    margin: auto;
-    overflow: hidden;
-    margin-top: 120px;
-    display: flex;
+    display: inline-flex;
+    margin-top: 80px;
+    margin-bottom: 85px;
     font-family: 'Gilroy-Bold', sans-serif;
     justify-content: space-between;
 }
 .qoute {
     float: left;
     margin-top: 15px;
-    padding-left: 162px;
+    padding-left: 109px;
 }
 .text h1 {
-    width: 538px;
-    height: 128px;
+    padding-left: 150px;
     font-family: 'Gilroy-Bold', sans-serif;
-    padding-left: 200px;
     font-size: 48px;
     line-height: 64px;
     font-weight: 400;
 }
 .curve {
     margin-top: -30px;
-    padding-left: 440px;
+    padding-left: 400px;
 }
 .p1 {
+    padding-left: 150px;
     font-family: 'Gilroy-Medium', sans-serif;
-    padding-left: 200px;
-    margin-top: 30px;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
@@ -128,13 +121,8 @@ button {
     margin-top: 50px;
 }
 .page1_image {
-    width: 520.0040283203125;
-    height: 425.0040588378906;
-    top: 261px;
-    left: 664px;
-    padding-right: 600px;
-    margin-top: 50px;
-    margin-left: -20px;
+    margin-left: 100px;
+    margin-top: 40px;
 }
 .page2 {
     background-color: white;
@@ -158,12 +146,12 @@ h3 {
     padding-right: 155px;
     display:flex;
 }
-h2 {
+.page3x1 h2 {
     padding-left: 170px;
     font-size: 20px;
     font-family: 'Gilroy-SemiBold',sans-serif;
 }
-p {
+.page3x1 p {
     font-family: 'Gilroy-Medium', sans-serif;
     padding-left: 170px;
     font-size: 16px;
@@ -183,10 +171,18 @@ p {
     padding-right: 155px;
     display: flex;
     justify-content: space-between;
-    line-height: 1.5;
+}
+.page3x2 h2 {
+    padding-left: 170px;
+    font-size: 20px;
+    font-family: 'Gilroy-SemiBold',sans-serif;
 }
 .page3x2 p {
-    padding-bottom: 30px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    padding-left: 170px;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-bottom: 70px;
 }
 .stock_icon {
     padding-left: 170px;
@@ -199,14 +195,14 @@ p {
 }
 .page4_bg {
     padding-top: 75px;
-    background-image: url('page4_grid_bg.png'),url('page4_bg.png');
-    position: center;
+    background-image: url('page4_grid_bg.png'),url('page4_bg.png') ;
 }
 .advisorx1 {
     display: flex;
     justify-content: center;
     padding-top: 13px;
     gap: 20px;
+    padding-bottom: 30px;
 }
 .page4_heading {
     padding-top: 0px;
@@ -240,17 +236,17 @@ p {
 .name1 {
     font-family: 'Gilroy-SemiBold',sans-serif;
     font-size: 16px;
-    margin-left: -160px; 
+    padding-left: 5px;
 }
 .rating_1 {
     width: 50px;
     height: 24px;
-    margin-left: 60px;
+    margin-left: 50px;
     margin-top: 10px;
 }
 .line4x1 {
     display: flex;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 .briefcase_icon1 {
     width: 16px;
@@ -264,6 +260,7 @@ p {
 }
 .credit1 {
     margin-bottom: 10px;
+    margin-top: 5px;
 }
 .card2 {
     width: 320;
@@ -296,17 +293,17 @@ p {
 .name2 {
     font-family: 'Gilroy-SemiBold',sans-serif;
     font-size: 16px;
-    margin-left: -160px; 
+    padding-left: 5px;
 }
 .rating_2 {
     width: 50px;
     height: 24px;
-    margin-left: 60px;
+    margin-left: 87px;
     margin-top: 10px;
 }
 .line4x2 {
     display: flex;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 .briefcase_icon2 {
     width: 16px;
@@ -320,6 +317,7 @@ p {
 }
 .credit2 {
     margin-bottom: 10px;
+    margin-top: 5px;
 }
 .card3 {
     width: 320;
@@ -351,37 +349,38 @@ p {
 }
 .name3 {
     font-family: 'Gilroy-SemiBold',sans-serif;
-    font-size: 16px;
-    margin-left: -160px; 
+    font-size: 16px; 
+    padding-left: 5px;
 }
 .rating_3 {
     width: 50px;
     height: 24px;
-    margin-left: 60px;
+    margin-left: 150px;
     margin-top: 10px;
 }
 .line4x3 {
     display: flex;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 .briefcase_icon3 {
     width: 16px;
     height: 16px;
+    margin-right: 10px;
 }
 .experince3 {
     color: #555555;
     margin-top: -70px;
     font-size: 14px;
-    margin-left: 10px;
 }
 .credit3 {
     margin-bottom: 10px;
+    margin-top: 5px;
 }
 .page4_end {
     display: flex;
     padding-left: 650px;
     padding-top: 20px;
-    padding-bottom: 70px;
+    padding-bottom: 90px;
 }
 .page4_end h4 {
     font-size: 16px;
@@ -394,11 +393,15 @@ p {
     padding-left: 10px;
     margin-top: 20px;
 }
+.page5_top {
+    display: flex;
+}
 .page5_img {
     float: left;
 }
 .page5_heading {
-    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-bottom: 30px;
     text-align: center;
     font-size: 28px;
     font-family: 'Gilroy-Bold', sans-serif;
